@@ -388,21 +388,163 @@ main {
     justify-content: space-between;
     align-items: center;
 }
-.girl-container{
-width: 429px;
-height: 433px;
-position: relative;
-left: 12%;
-bottom: 14%;
+
+.girl-container {
+    width: 429px;
+    height: 433px;
+    position: relative;
+    left: 12%;
+    bottom: 14%;
 }
-.girl-container img{
+
+.girl-container img {
     width: 429px;
     height: 433px;
 }
-.discound{
+
+.discound {
     position: absolute;
     bottom: 25%;
     left: 52%;
     z-index: 1;
 }
+
 /* Holidays Sale 50% ends hear */
+
+/* portfolio section start hear */
+.portfolio-container {
+    height: 1163px;
+    margin-bottom: 120px;
+}
+
+.portfolio-text-contant #p1 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.portfolio-text-contant h2 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-top: 22px;
+}
+
+.portfolio-text-contant p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 896px;
+    margin-top: 22px;
+}
+
+.portfolio-img img {
+    width: 424px;
+    height: 450px;
+    margin-top: 2rem;
+    border-radius: 16px;
+}
+
+.portfolio-image-contant {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* portfolio section ends hear */
+
+/* gmail section start hear */
+.gmail-contant {
+    height: 616px;
+    margin-bottom: 120px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+}
+
+.img-container img {
+    width: 150px;
+    height: 150px;
+    margin-top: 72px;
+    margin-bottom: 48px;
+}
+
+.img-container h1 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.img-container p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 896px;
+    margin: 0 auto;
+    margin-top: 19px;
+    margin-bottom: 48px;
+}
+
+.gmail-container input {
+    width: 438px;
+    height: 72px;
+    background: rgb(255, 255, 255);
+    border: none;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    font-size: 22px;
+    padding-left: 20px;
+}
+
+.gmail-container input::placeholder {
+    padding-left: 30px;
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+
+.gmail-container input:focus {
+    outline: 0;
+}
+
+.gmail-container button {
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    border: none;
+    width: 210px;
+    height: 72px;
+    gap: 0;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* gmail section ends hear */
