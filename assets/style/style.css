@@ -1,11 +1,408 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    font-family: "Merriweather", serif;;
+body {
+    font-family: "Merriweather", serif;
+    ;
 }
+
+main {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+/* banner section start hear */
+.banner-container {
+    max-width: 1320px;
+    max-height: 600px;
+    border: 2px solid black;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(../images/Banner\ Image.png);
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+
+.banner-content {
+    margin: 177px 344px;
+}
+
+.banner-header {
+    color: rgb(255, 255, 255);
+    /* font-family: Merriweather; */
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.banner-description {
+    color: rgb(255, 255, 255);
+    /* font-family: Merriweather; */
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* 65% off start hear */
+.new-year {
+    max-width: 802.9px;
+    max-height: 806px;
+    /* border: 2px solid black; */
+    margin-top: 5rem;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.new-year h1 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.new-year-img {
+    width: 651px;
+}
+
+.new-year-img {
+    margin: 0 auto;
+}
+
+.new-year-img p {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.new-year-img h2 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.new-year-img .img img {
+    height: 500px;
+    width: 802px;
+    margin-left: -75px;
+    margin-top: 3rem;
+}
+
+/* 65% off ends hear */
+
+/* midnight party start hear */
+.midnight-party-container {
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    display: flex;
+    gap: 4rem;
+}
+
+.leftside-content {
+    width: 60%;
+    height: 600px;
+    /* border: 1px solid white; */
+}
+
+.rightside-content {
+    width: 40%;
+    height: 600px;
+    /* border: 1px solid gold; */
+}
+
+.leftside-content h1 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
+    margin-top: 126px;
+    margin-left: 126px;
+}
+
+.leftside-content p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 697px;
+    margin-left: 126px;
+    margin-top: 1rem;
+}
+
+.leftside-content button {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 126px;
+    margin-top: 5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.rightside-content img {
+    margin-top: 80px;
+}
+
+/* midnight party ends hear */
+
+/* party info section start heat */
+.party-info-container {
+    height: 482px;
+    /* width: 1320px; */
+    border-radius: 16px;
+    background: linear-gradient(0.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    margin-bottom: 120px;
+}
+
+.party-info-content {
+    /* height: 272px;
+    width: 549px; */
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.party-info-container .button {
+    margin: 0 auto;
+}
+
+.party-info-btn {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    padding: 16px 32px 16px 32px;
+    border: none;
+    margin-left: 600px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+/* party info section ends heat */
+
+/* new year offer section start hear */
+.new-year-offer {
+    height: 463px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.new-year-offer .first-coll {
+    width: 33.33%;
+}
+
+.new-year-offer .first-coll h4 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 1rem;
+}
+
+.new-year-offer .first-coll h1 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.new-year-offer .first-coll p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.new-year-offer .secound-coll {
+    width: 33.33%;
+}
+
+.new-year-offer .secound-coll img {
+    width: 80%;
+    box-sizing: border-box;
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    padding: 5%;
+}
+
+.new-year-offer .third-coll {
+    width: 33.33%;
+}
+
+.new-year-offer .third-coll h1 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.new-year-offer .third-coll p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.new-year-offer .third-coll img {
+    justify-content: end;
+    margin-top: 2rem;
+}
+
+/* new year offer section ends hear */
+
+/* Holidays Sale 50% start hear */
+.Holidays-Sale-container {
+    height: 986.07px;
+    /* border: 1px solid black; */
+    margin-bottom: 120px;
+    position: relative;
+}
+
+.Holidays-Sale-first-content {
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.Holidays-Sale-first-content h4 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.Holidays-Sale-first-content h1 {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.Holidays-Sale-first-content h1 span {
+    color: rgb(255, 0, 0);
+}
+
+.Holidays-Sale-first-content p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.Holidays-Sale-color {
+    height: 229px;
+    width: 1320px;
+    background-image: url(../images/Rectangle\ 2.png);
+    position: absolute;
+    top: 76.9%;
+}
+
+.Holidays-Sale-secound-content {
+    /* border: 1px solid black; */
+}
+
+.gift-box {
+    width: 796.46px;
+    height: 662.07px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.girl-container{
+width: 429px;
+height: 433px;
+position: relative;
+left: 12%;
+bottom: 14%;
+}
+.girl-container img{
+    width: 429px;
+    height: 433px;
+}
+.discound{
+    position: absolute;
+    bottom: 25%;
+    left: 52%;
+    z-index: 1;
+}
+/* Holidays Sale 50% ends hear */
